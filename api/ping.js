@@ -1,10 +1,8 @@
-// api/ping.js
-export default function handler(req, res) {
+module.exports = (req, res) => {
   res.status(200).json({
     status: "ok",
     message: "pong!",
     bot: "gang-bot-render",
-    time: new Date().toISOString(),
-    uptime: process.uptime()
+    time: new Date().toISOString()
   });
-}
+};
