@@ -1,0 +1,13 @@
+{
+  "name": "gang-bot-render",
+  "version": "1.0.0",
+  "description": "Gang Bot Render with API ping",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/ping.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "18.x"
+  }
+}
