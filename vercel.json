@@ -7,7 +7,7 @@
   "rewrites": [
     {
       "source": "/api/ping",
-      “destination”: "/api/ping.js"
+      "destination": "/api/ping.js"
     },
     {
       "source": "/(.*)",
