@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "public": true,
+  "builds": [
+    {
+      "src": "api/ping.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/ping",
+      "dest": "/api/ping.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/index.html"
+    }
+  ]
+}
