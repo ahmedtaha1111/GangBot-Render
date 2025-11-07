@@ -1,12 +1,10 @@
 {
-  "name": "gangbot-render",
+  "name": "gangbotking",
   "version": "1.0.0",
-  "description": "Gang Bot Uptime Monitor",
   "main": "api/ping.js",
-  "scripts": {
-    "start": "node api/ping.js"
+  "dependencies": {
+    "discord.js": "^14.15.3"
   },
-  "dependencies": {},
   "engines": {
     "node": "22.x"
   }
