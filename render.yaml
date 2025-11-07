@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: gang-bot-24h
-    env: docker
-    plan: free
-    autoDeploy: true
-    dockerfilePath: ./Dockerfile
-    healthCheckPath: /
